@@ -1,0 +1,61 @@
+Status: PASS
+Time Taken: 416
+Size: 196
+Timestamp: Mon Apr 11 19:29:17 IST 2022
+TestStep: GET Emails
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://api.github.com
+Method: GET
+StatusCode: 200
+URL: https://api.github.com/user/emails
+
+---------------- Request ---------------------------
+Authorization: [Bearer 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]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/16.0.1)]
+Host: [api.github.com]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://api.github.com/user/emails HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Bearer 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
+Content-Length: 0
+Host: api.github.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/16.0.1)
+
+
+---------------- Response --------------------------
+X-Accepted-OAuth-Scopes: [user, user:email]
+Server: [GitHub.com]
+X-RateLimit-Resource: [core]
+X-RateLimit-Used: [34]
+Access-Control-Allow-Origin: [*]
+X-Frame-Options: [deny]
+Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]
+Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]
+Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]
+X-RateLimit-Remaining: [4966]
+X-GitHub-Media-Type: [github.v3; format=json]
+Content-Security-Policy: [default-src 'none']
+#status#: [HTTP/1.1 200 OK]
+X-XSS-Protection: [0]
+Content-Type: [application/json; charset=utf-8]
+X-GitHub-Request-Id: [DBE1:40BB:195C9E:1B497C:62543436]
+Transfer-Encoding: [chunked]
+X-Content-Type-Options: [nosniff]
+X-RateLimit-Reset: [1649688191]
+Date: [Mon, 11 Apr 2022 13:59:18 GMT]
+Cache-Control: [private, max-age=60, s-maxage=60]
+ETag: [W/"4b137ab3bae1e9bb6721fefb484af24b139a587ad234dcf90d0db9a8851c5e91"]
+Vary: [Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With]
+X-RateLimit-Limit: [5000]
+X-OAuth-Scopes: [admin:public_key, user:email]
+github-authentication-token-expiration: [2022-05-11 09:22:05 UTC]
+
+[{"email":"ananya.mula@ibm.com","primary":true,"verified":true,"visibility":"private"},{"email":"103418191+ananya-mula@users.noreply.github.com","primary":false,"verified":true,"visibility":null}]
